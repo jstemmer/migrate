@@ -1,5 +1,7 @@
 # migrate
 
+[![Build Status](https://travis-ci.org/jstemmer/migrate.svg?branch=master)](https://travis-ci.org/jstemmer/migrate)
+
 Package migrate provides a database agnostic schema migration mechanism with a
 simple database locking strategy. It is suitable to be used in server
 applications where multiple separate processes may attempt to migrate the
